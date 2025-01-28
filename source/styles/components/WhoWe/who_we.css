@@ -1,0 +1,133 @@
+.who__we {
+    margin-top: 120px;
+}
+
+.who__we__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.who__we__title {
+    font-size: 94px;
+    font-weight: 500;
+    color: var(--text-color-dark);
+}
+
+.who__we__description p {
+    margin-top: 12px;
+    line-height: 40px;
+    width: 520px;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--text-color-light-gray);
+}
+
+.pins {
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    margin-top: 190px;
+    transform: translate(-50%, -50%);
+}
+
+
+.objects_wrapper {
+    z-index: 1;
+    position: relative;
+    margin-top: 98px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+    min-height: 400px;
+}
+
+.object__block-note {
+    position: relative;
+}
+
+.object__text-note span {
+    color: var(--text-color-light-gray);
+}
+
+.object__text-note {
+    top: 120px;
+    left: 50px;
+    position: absolute;
+    transform: rotate(-13deg);
+    width: 330px;
+    line-height: 40px;
+    font-size: 34px;
+    font-weight: 400;
+    color: var(--text-color-dark);
+}
+
+.object__text-photo span {
+    color: var(--text-color-light-gray);
+}
+
+.object__text-photo {
+    bottom: 0;
+    left: 20px;
+    position: absolute;
+    width: 280px;
+    line-height: 40px;
+    font-size: 34px;
+    font-weight: 400;
+    color: var(--text-color-dark);
+}
+
+.object__block-photo {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.object__text-audio {
+    left: 70px;
+    position: absolute;
+    width: 380px;
+    line-height: 40px;
+    font-size: 34px;
+    font-weight: 400;
+    color: var(--text-color-dark);
+}
+
+.object__block-audio {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.object__text-audio span {
+    color: var(--text-color-light-gray);
+}
+
+.audio {
+    margin-top: 190px;
+}
+
+.object__text-count {
+    bottom: 0;
+    left: 30px;
+    position: absolute;
+    width: 380px;
+    line-height: 40px;
+    font-size: 34px;
+    font-weight: 400;
+    color: var(--text-color-dark);
+}
+
+.object__block-count {
+    left: 80px;
+    position: relative;
+}
+
+.object__text-count span {
+    color: var(--text-color-light-gray);
+}
+
+.count {
+    margin-bottom: 150px;
+}

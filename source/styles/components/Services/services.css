@@ -1,0 +1,124 @@
+.services {
+    margin-top: 150px;
+}
+
+.services__wrapper {
+    background-color: var(--background-color-gray);
+    border-radius: 50px;
+    padding: 82px;
+}
+
+.services__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__right {
+    display: flex;
+    align-items: center;
+    gap: 25%;
+}
+
+.services__text {
+    width: 450px;
+    font-size: 36px;
+    color: var(--text-color-light-gray);
+}
+
+.services__left h2 {
+    font-weight: 500;
+    font-size: var(--h2-desktop-title-size);
+    color: var(--text-color-dark);
+}
+
+.services__right__buttons button {
+    background-color: inherit;
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.services__right__buttons button:hover {
+    background-color: var(--background-color-light-gray);
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+}
+
+.services__right__buttons {
+    border-radius: 200px;
+    width: 169px;
+    height: 84px;
+    padding: 14px;
+    background-color: var(--background-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services__bottom {
+    margin-top: 81px;
+    align-items: center;
+}
+
+.services__object {
+    border-radius: 40px;
+    width: 425px;
+    min-height: 620px;
+    background-color: var(--background-color-white);
+    transition: 0.3s ease-in-out;
+}
+
+.services__object:hover .services__object__button {
+    display: flex;
+}
+
+.services__object__top {
+    padding: 10px;
+}
+
+.services__object__down {
+    padding: 30px;
+}
+
+.services__object__title {
+    font-size: var(--h3-desktop-title-size);
+}
+
+.services__object__description p {
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+.services__object__button {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 24px 30px;
+    width: 365px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color-dark);
+    transition: opacity 0.3s ease-in-out;
+    display: none;
+}
+
+.services__object__button:hover {
+    opacity: 0.9;
+}
+
+.services__object__button span {
+    color: var(--text-color-white);
+}
+
+.swiper-wrapper {
+    display: flex;
+    gap: 10px;
+}

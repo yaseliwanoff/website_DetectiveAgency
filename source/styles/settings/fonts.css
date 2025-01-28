@@ -1,0 +1,97 @@
+/* Gilroy */
+@font-face {
+    font-family: "Gilory";
+    src: url("../../fonts/Gilory/ttf/Gilroy-Black.ttf") format("truetype"),
+    url("../../fonts/Gilory/woff2/Gilroy-Black.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Gilory";
+    src: url("../../fonts/Gilory/ttf/Gilroy-Bold.ttf") format("truetype"),
+    url("../../fonts/Gilory/woff2/Gilroy-Bold.woff2") format("woff2");
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../fonts/Gilory/ttf/Gilroy-ExtraBold.ttf") format("truetype"),
+    url("../../fonts/Gilory/woff2/Gilroy-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../fonts/Gilory/ttf/Gilroy-Regular.ttf") format("truetype"),
+    url("../../fonts/Gilory/woff2/Gilroy-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../fonts/Gilory/ttf/Gilroy-Medium.ttf") format("truetype"),
+    url("../../fonts/Gilory/woff2/Gilroy-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../fonts/Gilory/ttf/Gilroy-SemiBold.ttf") format("truetype"),
+    url("../../fonts/Gilory/woff2/Gilroy-SemiBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Nato Sans */
+@font-face {
+    font-family: "Nato Sans";
+    src: url("../../fonts/NatoSans/ttf/NotoSans_Condensed-Black.ttf") format("truetype"),
+    url("../../fonts/NatoSans/woff2/NotoSans_Condensed-Black.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Nato Sans";
+    src: url("../../fonts/NatoSans/ttf/NotoSans_Condensed-Bold.ttf") format("truetype"),
+    url("../../fonts/NatoSans/woff2/NotoSans_Condensed-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Nato Sans";
+    src: url("../../fonts/NatoSans/ttf/NotoSans_Condensed-ExtraBold.ttf") format("truetype"),
+    url("../../fonts/NatoSans/woff2/NotoSans_Condensed-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Nato Sans";
+    src: url("../../fonts/NatoSans/ttf/NotoSans_Condensed-SemiBold.ttf") format("truetype"),
+    url("../../fonts/NatoSans/woff2/NotoSans_Condensed-SemiBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Nato Sans";
+    src: url("../../fonts/NatoSans/ttf/NotoSans_Condensed-Medium.ttf") format("truetype"),
+    url("../../fonts/NatoSans/woff2/NotoSans_Condensed-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Nato Sans";
+    src: url("../../fonts/NatoSans/ttf/NotoSans_Condensed-Regular.ttf") format("truetype"),
+    url("../../fonts/NatoSans/woff2/NotoSans_Condensed-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,32 @@
+/* Импорт стилевых настроек */
+@import url("./settings/adaptive.css");
+@import url("./settings/styles.css");
+@import url("./settings/fonts.css");
+@import url("./settings/reset.css");
+
+/* Импорт компонентов */
+@import url("./components/Header/header.css");
+@import url("./components/TitleSection/title_section.css");
+@import url("./components/WhoWe/who_we.css");
+@import url("./components/Services/services.css");
+@import url("./components/HowWe/how_we.css");
+@import url("./components/Clients/clients.css");
+
+* {
+    font-family: "Gilroy";
+    font-weight: 400;
+    color: var(--background-color-dark);
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 1820px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

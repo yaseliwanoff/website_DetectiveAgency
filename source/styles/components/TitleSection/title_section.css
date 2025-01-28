@@ -1,0 +1,116 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__section__right__block {
+    position: relative;
+}
+
+.title__section__left__block {
+    flex: 1;
+    margin-top: 180px;
+}
+
+.title__section__text > .title {
+    width: 787px;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.text {
+    color: var(--background-color-dark-gray);
+}
+
+.title__secription p {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color-light-gray);
+    margin-top: 30px;
+}
+
+.title__section__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    border: none;
+    margin-top: 70px;
+    border-radius: 12px;
+    padding: 24px;
+    width: 361px;
+    height: 89px;
+    color: var(--text-color-dark);
+    background-color: var(--background-color-light-gray);
+    transition: 0.3s ease-in-out;
+}
+
+.title__section__button:hover {
+    opacity: 0.7;
+}
+
+.title__section__text {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-color-light-dark);
+}
+
+.section__bottom_button {
+    background-color: var(--background-color-light-gray);
+    border-radius: 100%;
+    width: 54px;
+    height: 54px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.section__bottom_button:hover {
+    opacity: 0.7;
+}
+
+.wrapper__section__bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color-light-gray);
+    border-radius: 100px;
+    padding: 16px 24px;
+    width: 391px;
+    height: 30px;
+}
+
+.whatsapp {
+    border-right: 2px solid var(--background-color-dark-gray);
+    padding-right: 40px;
+}
+
+.whatsapp p {
+    display: inline;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    text-transform: lowercase;
+}
+
+.email {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--text-color-light-dark);
+}
